@@ -6,6 +6,12 @@ This is a child-theme of the original Fundify, to tune some templates for the co
 - header.php
 - 
 its a hard coded tuning of the header.
+Canvis que he vist:
+ [L 43](https://github.com/bum2/fundify-child/blob/master/header.php#L42)
+ function coopfy_header() {
+    echo '<div class="pastilla"><h2>' .  __('NEW SITE','fundify') . '</h2></div>';
+ }
+ add_action( 'icl_language_selector', 'coopfy_header' )
 
 - footer.php
 - 
